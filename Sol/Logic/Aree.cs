@@ -8,6 +8,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Area.Sol.Logic
 {
+    //RISOLVERE PROBLEMA NUMERI DECIMALI(VIRGOLA/PUNTO); CREARE VALIAZIONI IF\CICLO DO WHILE PER EVITARE L'USCITA DALL'OPERAZIONE CORRENTE IN CASO DI ERRORE.
     public class Aree
     {
         public float triangolo()
@@ -38,7 +39,7 @@ namespace Area.Sol.Logic
                 Console.Write($"\ninserisci lunghezza lato:");
                 float lato = float.Parse(Console.ReadLine());
                 float areaQ;
-                areaQ = lato * 2;
+                areaQ = lato * lato;
                 Console.WriteLine($"lato:{lato}");
                 Console.WriteLine($"l'area è: {areaQ}");
                 return areaQ;
