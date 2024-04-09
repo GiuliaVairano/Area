@@ -38,7 +38,7 @@ namespace Area.Sol.Logic
                 Console.Write($"\ninserisci lunghezza lato:");
                 float lato = float.Parse(Console.ReadLine());
                 float areaQ;
-                areaQ = lato * 2;
+                areaQ = lato * lato;
                 Console.WriteLine($"lato:{lato}");
                 Console.WriteLine($"l'area è: {areaQ}");
                 return areaQ;
